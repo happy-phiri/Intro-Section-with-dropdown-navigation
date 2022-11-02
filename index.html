@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- CSS STYLESHEET -->
+  <link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+  <header>
+    <div class="mobile-header">
+      <img src="/images/logo.svg" alt="logo" class="logo">
+      <button><img src="/images/icon-menu.svg" alt="menu-icon" class="menu-icon" id="toggler"></button>
+    </div>
+
+    <div class="desktop-header" id="header">
+      <nav>
+        
+        <img src="/images/logo.svg" alt="logo" class="logo">
+        
+        <ul class="nav-links">
+          <li class="nav-link dropdown-nav-link1"><a href="#">Features <span class="arrow1"><img src="/images/icon-arrow-down.svg" alt="icon-arrow-down"></span></a>
+            <ul class="dropdowns dropdown1">
+              <li class="secondary-nav-link"><a href="#"><span><img src="/images/icon-todo.svg" alt="icon-todo"></span>Todo List</a></li>
+              <li class="secondary-nav-link"><a href="#"><span><img src="/images/icon-calendar.svg" alt="icon-calender"></span>Calender</a></li>
+              <li class="secondary-nav-link"><a href="#"><span><img src="/images/icon-reminders.svg" alt=""></span>Reminders</a></li>
+              <li class="secondary-nav-link"><a href="#"><span><img src="/images/icon-planning.svg" alt=""></span>Planning</a></li>
+            </ul>
+          </li>
+          <li class="nav-link dropdown-nav-link2"><a href="#">Company <span><img src="/images/icon-arrow-down.svg" alt="icon-arrow-down"></span></a>
+            <ul class="dropdowns dropdown2">
+              <li class="secondary-nav-link"><a href="#">History</a></li>
+              <li class="secondary-nav-link"><a href="#">Our Team</a></li>
+              <li class="secondary-nav-link"><a href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li class="nav-link"><a href="#">Careers</a></li>
+          <li class="nav-link"><a href="#">About</a></li>
+        </ul>
+      </nav>
+      
+      <ul class="cta-links">
+        <li class="cta-link"><a href="#">Login</a></li>
+        <li class="cta-link btn"><a href="#">Register</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="hero">
+    <section class="hero-text">
+      <h1>Make <br>remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, create team rituals and watch productivity soar.</p>
+      <button class="hero-btn">Learn more</button>
+
+      <div class="hero-clients">
+        <img src="/images/client-databiz.svg" alt="">
+        <img src="/images/client-audiophile.svg" alt="">
+        <img src="/images/client-meet.svg" alt="">
+        <img src="/images/client-maker.svg" alt="">
+      </div>
+    </section>
+
+    <section class="hero-img">
+      <img class="desktop-hero-img" src="/images/image-hero-desktop.png" alt="image-hero-desktop">
+      <img class="mobile-hero-img" src="/images/image-hero-mobile.png" alt="image-hero-mobile">
+    </section>
+  </main>
+  
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Happy Phiri</a>.
+  </div> -->
+
+  <!-- SCRIPT -->
+  <script src="/index.js"></script>
+</body>
+</html>
